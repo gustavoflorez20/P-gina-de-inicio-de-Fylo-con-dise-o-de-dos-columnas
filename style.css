@@ -1,0 +1,399 @@
+.fylo {
+  width: 4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.up-texts {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 24rem;
+}
+
+.all {
+  width: 20rem;
+}
+.up-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.space-titulo {
+  width: 20rem;
+  margin-left: 1rem;
+}
+
+.space-text-1 {
+  width: 22rem;
+}
+.spaces {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.get {
+  background-color: #2f65f9;
+  border: none;
+  color: white;
+  width: 6rem;
+  height: 1.4rem;
+  font-size: 0.5rem;
+  position: relative;
+  bottom: 0.1rem;
+  left: 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.medium {
+  background-color: #f9f8fe;
+  position: relative;
+  bottom: 0rem;
+}
+
+.down {
+  background-color: #575989;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.contac {
+  background-color: #09073a;
+  color: white;
+}
+
+.gren {
+  color: #5fb3a4;
+  width: 10rem;
+  text-decoration: underline;
+}
+
+.point {
+  font-size: 4rem;
+  position: relative;
+  right: 0.4rem;
+  bottom: 0.1rem;
+}
+
+.titulo {
+  position: relative;
+  right: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.titulo-1 {
+  position: relative;
+  left: -0rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.space-titulo-1 {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+
+  position: relative;
+  right: 1rem;
+  width: 23rem;
+}
+.gren {
+  margin-left: 1rem;
+}
+.text-1 {
+  font-size: 0.8rem;
+  color: #6d6b79;
+}
+.text-3 {
+  margin-left: 1rem;
+}
+
+.img-perfil {
+  border-radius: 50rem;
+  width: 1rem;
+  position: relative;
+  left: 1rem;
+}
+.ceo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.perfil {
+  position: relative;
+  left: 0.3rem;
+}
+.perfil-2 {
+  position: relative;
+  left: 2.3rem;
+}
+.text3 {
+  border: 0.2rem solid #f5f4fb;
+  border-radius: 0.5rem;
+  width: 15rem;
+  background-color: white;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  bottom: 1rem;
+}
+.text-2 {
+  color: white;
+  font-size: 0.95rem;
+}
+.ceo-image {
+  width: 20rem;
+}
+
+.ceo-img {
+  background-color: #f9f8fe;
+}
+.ceo-image {
+  position: relative;
+  top: 3rem;
+  background-color: #f9f8fe;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #f8f8fe;
+}
+
+.curve-1 {
+  min-width: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0.5rem;
+}
+
+.perfil {
+  font-size: 0.5rem;
+}
+
+.perfil-2 {
+  font-size: 0.5rem;
+  position: relative;
+  bottom: 0.3rem;
+}
+.titulo-2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.space-text-2 {
+  width: 26rem;
+}
+
+.get-2 {
+  background-color: #2f65f9;
+  border: none;
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  font-size: 0.5rem;
+  position: relative;
+  top: 0.5rem;
+  left: 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.down-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 23rem;
+}
+
+.imputs {
+  width: 23rem;
+  height: 1.5rem;
+}
+
+.imputs::placeholder {
+  color: #d2d2d2;
+  opacity: 1;
+}
+
+.button-text {
+  width: 23rem;
+}
+.text-email::placeholder {
+  color: #d2d2d2;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.contacts-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6rem;
+  position: relative;
+  top: 2rem;
+}
+
+.redes svg {
+  fill: white;
+}
+
+.redes {
+  position: relative;
+  top: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .fylo {
+    position: relative;
+    bottom: 1rem;
+    right: 2rem;
+  }
+
+  .up-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+.titulo{
+    position: relative;
+    left: 1rem;
+}
+  .space-text-1 {
+    width: 14rem;
+    height: 5rem;
+
+    align-self: center;
+  }
+  .two {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+   
+  }
+
+  .cuarter, .text3, .text-3 {
+    text-align: center; 
+  }
+  
+  .cuarter {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gren {
+    text-align: center; 
+    position: relative;
+    left: 6rem;
+    
+  }
+  
+  .point {
+    display: inline-block;
+  }
+  svg{
+    position: relative;
+    right: 6.30rem;
+  }
+
+
+
+  .img-perfil{
+    position: relative;
+    left: 1.5rem;
+  }
+  .perfil{
+    position: relative;
+    left: 1rem;
+  }
+  .perfil-2{
+    position: relative;
+    left: -2rem;
+   
+  }
+
+  .down{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+  .imputs{
+    width: 9.5rem;
+    position: relative;
+    left: 0.10rem;
+  }
+
+  .contacts-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    position: relative;
+    top: 2rem;
+  }
+  .logo-inferior{
+    position: relative;
+    left: 8rem;
+    
+  }
+.redes{
+    position: relative;
+    top: 12rem;
+}
+
+.lists{
+    position: relative;
+    bottom: 6rem;
+
+}
+
+
+
+}
